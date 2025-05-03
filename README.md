@@ -1,15 +1,15 @@
-# [Nexus](https://github.com/aarontburn/nexus-core): Discord Monkey
+# [Nexus](https://github.com/aarontburn/nexus-core): Steam Monkey
 
-  <img src="./src/assets/icon.png" alt="Discord Monkey Icon" width="200"/>
+<img src="./src/assets/icon.png" alt="Steam Monkey Icon" width="200"/>
 
-A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" Discord as a Nexus module...
+A module for [Nexus](https://github.com/aarontburn/nexus-core) to "embed" Steam as a Nexus module...
 
-And by "embed", this just takes your Discord window and monkeys it around.
+And by "embed", this just takes your Steam window and monkeys it around.
 
 
 
 <p align="center">
-  <img src="./assets/sample-image.png" alt="Discord Monkey Sample" width="1000"/>
+  <img src="./assets/image.png" alt="Steam Monkey Sample" width="1000"/>
 </p>
 
 ## Required Dependencies
@@ -19,7 +19,7 @@ You will need the following modules installed into Nexus.
 
 ### Application Dependencies
 The following applications need to be installed to your computer.
-- [**Discord**](https://discord.com/)
+- [**Steam**](https://store.steampowered.com/about/)
 
 ## Installation
 1. Download and install all dependencies.
@@ -29,12 +29,12 @@ The following applications need to be installed to your computer.
 
 
 ## Usage
-- On startup (or when the `Locate window` button is pressed), Discord Monkey will look for your open Discord window, and, if found within 10 seconds, will start monkeying the window into Nexus.
-- By providing a path to your Discord executable in the Settings, you unlock the following features:
-  -  Opening the Discord app while it's already embedded into Nexus will swap to the Discord Monkey module.
-  -  The `Locate window` button will start a new instance of Discord if one isn't found.
+- On startup (or when the `Locate window` button is pressed), Steam Monkey will look for your open Steam window, and, if found within 10 seconds, will start monkeying the window into Nexus.
+- By providing a path to your Steam executable in the Settings, you unlock the following features:
+  -  Opening the Steam app while it's already embedded into Nexus will swap to the Steam Monkey module.
+  -  The `Locate window` button will start a new instance of Steam if one isn't found.
 
 
 
 ## Limitations:
-- Discord notifications will appear, but this will hide the red bubble.
+- The Steam icon will remain on the taskbar (unlike other Monkey apps), but when pressed, this will activate Nexus regardless.

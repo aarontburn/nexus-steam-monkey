@@ -10,27 +10,15 @@ let looking: [boolean] = [false];
 
 const handleEvent = (eventType: string, data: any[]) => {
     switch (eventType) {
+        case 'params': {
+            const { appName } = data[0];
+            Array.from(document.getElementsByClassName('app-name')).forEach((e: HTMLElement) => e.innerText = appName ?? "Template")
+            break;
+        }
         case "locate": {
             waitCountdown();
             break;
         }
-        case "path": {
-            getElement("path").innerText = data[0];
-            break;
-        }
-
-        // case "path-error": {
-        //     Array.from(document.getElementsByClassName("tab")).forEach(element => (element as HTMLElement).style.display = "none");
-
-        //     getElement('path-error').style.display = '';
-        //     if (data[0].trim?.() === '') {
-        //         getElement('path-error-loc').innerText = "(no path set).";
-        //     } else {
-        //         getElement('path-error-loc').innerText = "(no file found at " + data[0] + ").";
-        //     }
-
-        //     break;
-        // }
 
         case "missing_dependency": {
             getElement('content').style.display = "none"
