@@ -1,11 +1,15 @@
 {
     "name": "Steam Monkey",
     "id": "aarontburn.Steam_Monkey",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "aarontburn",
     "description": "'Embedding' Steam as a Nexus module. By monkeying it around.",
     "platforms": [],
     "link": "https://github.com/aarontburn/nexus-steam-monkey",
+    "git-latest": {
+        "git-username": "aarontburn",
+        "git-repo-name": "nexus-steam-monkey"
+    },
     "build": {
         "build-version": 5,
         "excluded": [
